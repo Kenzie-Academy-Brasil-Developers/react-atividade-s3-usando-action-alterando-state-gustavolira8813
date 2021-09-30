@@ -1,0 +1,21 @@
+.boxInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.boxInput input {
+  display: block;
+  margin: 8px;
+  height: 19px;
+  border-radius: 5px;
+}
+.boxInput button {
+  padding: 7px;
+  border-radius: 9px;
+  background: linear-gradient(red, yellow);
+}
+.output {
+  color: rgba(230, 189, 6, 0.932);
+  text-decoration: underline;
+  letter-spacing: 3px;
+}
